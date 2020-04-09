@@ -582,7 +582,7 @@ ccl_device_inline const ssef set_sign_bit(const ssef &a)
 
 #endif
 
-ccl_device_inline void print_ssef(const char *label, const ssef &a)
+/*ccl_device_inline void print_ssef(const char *label, const ssef &a)
 {
 	printf("%s: %.8f %.8f %.8f %.8f\n",
 	       label,
@@ -590,7 +590,7 @@ ccl_device_inline void print_ssef(const char *label, const ssef &a)
 	       (double)a[1],
 	       (double)a[2],
 	       (double)a[3]);
-}
+}*/
 
 CCL_NAMESPACE_END
 
